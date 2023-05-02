@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+nav {
+    
+    background: #643197;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+label.logo {
+    line-height: 60px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    
+}
+
+img{
+    height: 48px;
+    width: 48px;
+}
+
+nav ul {
+    text-align: center;
+
+}
+
+nav ul li {
+    
+    display: inline-block;
+    line-height: 60px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: large;
+
+}
+
+.insta {
+    float: right;
+    font-size: x-large;
+}
+
+
+
