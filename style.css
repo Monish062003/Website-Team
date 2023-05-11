@@ -2,47 +2,76 @@
     font-family: 'Poppins', sans-serif;
     color:white;
 }
+
 body{
     background-color: black;
-}
-.container{
+} 
+
+.acontainer{
+    text-align: center;
+    color: white;
     height:auto;
     position:relative;
     width:100%;
     font-size: medium;
     font-weight: 600;
 }
-.image{
-    width: 100%;
-    height: 300px;
-  }
-.one{
-    position:absolute;
-    top :100px;
-    left:20px;
-    font-size: 40px;
-    font-family: Poppins, sans-serif;
-    font-weight: bolder;
+
+.fcontainer{
+display:flex;
+border: 2px solid grey;
+justify-content: space-evenly;
+align-items: center;
+/*height: 45vh;*/
+flex-wrap: wrap;
 }
 
-*{
-    font-family: Poppins;
-    color: white;
+.fitem{
+background-color: antiquewhite;
+border: 2px solid black;
+margin: 12px;
+width: 122px;
+height: 122px;
 }
 
-.abe{
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;
-    right:10px;
-    left:10px;
-}
-.abb{
-    font-size: 25px;
-    text-align:center;
-    right:10px;
-    left:10px;
-}
-/*h1:hover{ 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}*/
+
+.gcontainer{
+    display:flex;
+    border: 2px solid grey;
+    justify-content: space-evenly;
+    align-items: center;
+    /*height: 45vh;*/
+    flex-wrap: wrap;
+    }
+    
+    .gitem{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+    }
+
+    .container {
+color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 10vh; /* Adjust as needed */
+        margin-right: 20px;
+        margin-left: 20px;
+        background-color:black;
+      }
+      
+    
+      .content {
+        /* Styles for your content here */
+      }
+      
+      .btn {
+        margin-top: 40px; /* Adjust as needed */
+        color: black;
+      }
+
+   
