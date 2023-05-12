@@ -1,0 +1,375 @@
+*{
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+
+body{
+    background-color: #090909;
+}
+
+
+.firstimage{
+    margin: auto;
+    width:1450px;
+    height: 320px;
+    padding-top: 50px;
+    position: relative;
+    bottom: 100px;
+    right: 7px;
+}
+
+
+.megacontainer{
+    position: relative;
+    top:300px;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 140px; */
+    grid-template-columns: 285px 375px 285px;
+    column-gap: 40px;
+    row-gap: 10px;
+    width: auto;
+}
+
+.container .gridimg1{
+    width:100%;
+    height:95%;
+}
+
+.container .gridimg3{
+    width:100%;
+    height:95%;
+}
+
+.box2{
+    /* border: 2px solid; */
+    position: relative;
+    bottom: 15px;
+}
+
+.box2 .gridimg2{
+    position: relative;
+    /* left: 40px; */
+    width:95%;
+    height:110%;
+}
+
+.textbold{
+    font-size: 31px;
+    font-weight: 500;
+    position: relative; 
+    top:40px;
+    text-align: center;
+}
+
+.content{
+    font-size: 27px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: 100px;    
+}
+
+.buttonrow{
+    text-align: center;
+    position: relative;
+    /* left: 525px; */
+    top: 125px;
+}
+
+input[type="button"]{
+    text-align: center;
+    width: 40%; 
+    height: 78px;
+    font-weight: 600;
+    font-size: 23px;
+    background: white;
+    border-radius: 5%;
+    color: #090909;
+}
+
+
+.container2{
+    /* justify-content: end; */
+    width: 100%;
+    height: 150px;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: 250px 700px 40px 60px 70px;
+    column-gap: 1rem;
+    position: relative;
+    top: 220px;
+}
+
+#squirrelnft{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    align-items: start;
+    font-size: 27px;
+    text-align: left;
+    position: relative;
+    bottom: 30px;
+} 
+
+#emailaddress{
+    height: 70px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    font-size: 20px;
+}
+
+.contain .knock{
+    font-weight: lighter;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.contain .knock .push{
+    font-weight: lighter;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+#text{
+    font-size: 131.25%;
+}
+
+.image{
+    text-align: end;
+}
+
+.instagram{
+    position: relative;
+    left:225px;
+    bottom:45px;
+}
+
+.twitter{
+    text-align: end;
+    position:relative;
+    left:245px;
+    bottom:35px;
+}
+
+.discord{
+    text-align: end;
+    background-color: white;
+    position:relative;
+    left:255px;
+    bottom:27px;
+}
+
+.contact{
+    border-radius: 8px;
+    height: 6px;
+    width: 98%;
+    background-color: #3c3b3d;
+    position: relative;
+    bottom:40px
+  }
+
+.container0 {
+    border-radius: 8px;
+    height: 6px;
+    width: 98%;
+    background-color: #3c3b3d;
+    position: relative;
+    top: 150px;
+  }
+
+  .whiteline{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    border-radius: 8px;
+    height: 5px;
+    width: 55%;
+    text-align: end;
+    /* padding-left: 250px; */
+    background-color: white;
+    position: relative;
+    top: 200px;
+    left: 300px;
+  }
+
+  .door100{
+    height:280px;
+    position: absolute;
+    right:25px;
+    bottom:100px
+  }
+
+  .door100img{
+    width: 101.5%;
+    height:220px;
+  }
+
+
+  .container3{
+    /* border: 2px solid; */
+    grid-column-start: 1;
+    grid-column-end: 6;
+    justify-self: center;
+    height: 100px;
+    width: 101.5%;
+    font-size: 15px;
+    background-color: #643197;
+    position: relative;
+    top: 250px;
+    right: 8px;
+  }
+
+  .heading{
+    position: relative;
+    top: 100px;
+  }
+    
+  .ends{
+    font-weight: 300;
+    text-align: right;
+    position: relative;
+    right:60px;
+    bottom: 30px;
+  }
+
+  @media screen and (max-width:500px){
+    html{
+        font-size: 100.25%;
+    }
+    /* .container{
+    grid-template-columns: 285px 375px 285px;
+    column-gap: 60px;
+    } */
+    
+    .images{
+        position: relative;
+        right: 7px;
+    }
+
+    .gridimg3{
+        display: none;
+    }
+    .container2{
+        grid-template-columns: 150px 200px 0px 30px 40px;
+    }
+
+    .content{
+        font-size: 92%;
+        width: 62%;
+        height: 245px;
+        font-weight: 300;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        right: -14%;
+    }
+
+    input[type="button"]{
+        font-size: 106.25%;
+        align-self: center;
+        height: 37px;
+    }
+    .megacontainer{
+        position: relative;
+        top: 0px;
+    }
+
+    .box2{
+        width: 90%;
+    }
+
+    .box2 .gridimg2{
+        /* border: 2px solid; */
+        position: relative;
+        left: 55px;
+        width:75%;
+        height:100%;
+    }
+
+    .firstimage{
+        position: relative;
+        top: 100px;
+        right: 1.1%;
+    }
+    .whiteline{
+        display: none;
+    }
+
+    .door100{
+        height: 100px;
+        position: relative;
+        right: -64.9%;
+        bottom: 107px;
+    }
+
+    .door100img{
+        width: 106%;
+        height: 100px;
+    }
+
+    .instagram{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        text-align: end;
+        left:-140px;
+        top:0px;
+    }
+
+    .twitter{
+        width: 45px;
+        height: 45px;
+        position: relative;
+        text-align: end;
+        left:-130px;
+        bottom:-8px;
+    }
+
+    .discord{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        text-align: end;
+        left:-140px;
+        bottom:-10px;
+    }
+    .container3{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        width: 106%;
+        /* position: relative;
+        right: 0px; */
+    }
+
+    .ends{
+        position: relative;
+        font-size: 90%;
+        right: 20%;
+    }
+
+  }
+
+  @media screen and (max-width:1800px){
+    .firstimage{
+        margin:auto;
+        width: 100%;
+        
+    }
+
+    input[type="button"]{
+        width: 200px;
+    }
+
+    
+  }
+
+  @media screen and (min-width:1800px){
+    input[type="button"]{
+        width: 200px;
+    }
+  }
+
+  
